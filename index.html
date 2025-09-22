@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <h1 class="logo">🎬 MovieHub</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Discover the Latest Movies</h2>
+    <p>Browse trending movies powered by TMDB API</p>
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search for a movie..." />
+      <button id="searchBtn">Search</button>
+    </div>
+  </section>
+
+  <!-- Movies Grid -->
+  <main class="movie-container" id="movieContainer">
+    <!-- JS will inject movie cards here -->
+  </main>
+
+  <!-- Modal for Movie Details -->
+  <div class="modal" id="movieModal">
+    <div class="modal-content">
+      <span class="close-btn" id="closeModal">&times;</span>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 MovieHub | Powered by TMDB API</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

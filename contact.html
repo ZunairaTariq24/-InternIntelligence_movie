@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - MovieHub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <h1 class="logo">🎬 MovieHub</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="hero">
+    <h2>Contact Us</h2>
+    <p>We’d love to hear from you! Fill out the form below to get in touch.</p>
+  </section>
+
+  <main class="movie-container">
+    <div style="grid-column: 1 / -1; max-width: 500px; margin: auto; background: #1b2a47; padding: 20px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.4);">
+      <form class="contact-form">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" placeholder="Your name" style="width:100%; padding:10px; margin:8px 0; border-radius:6px; border:none;"><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" placeholder="Your email" style="width:100%; padding:10px; margin:8px 0; border-radius:6px; border:none;"><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" rows="4" placeholder="Your message" style="width:100%; padding:10px; margin:8px 0; border-radius:6px; border:none;"></textarea><br>
+
+        <button type="submit" style="padding:10px 20px; border:none; background:#4fc3f7; color:#000; font-weight:bold; border-radius:6px; cursor:pointer; transition:0.3s;">Send</button>
+      </form>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 MovieHub | Powered by TMDB API</p>
+  </footer>
+</body>
+</html>
